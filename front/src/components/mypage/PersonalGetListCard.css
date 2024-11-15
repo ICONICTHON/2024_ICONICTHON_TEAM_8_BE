@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+.PersonalGetListCard_all_layout {
+  display: flex;
+  justify-content: center;
+}
+
+.PersonalGetListCard_all_size {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0px;
+}
+
+.PersonalGetListCard_text_layout {
+  display: grid;
+  align-content: stretch;
+}
+
+.PersonalGetListCard_lostTime_layout {
+  display: grid;
+}
+
+.PersonalGetListCard_itemType {
+  font-size: 18px;
+  color: #333333;
+  font-weight: 700;
+}
+
+.PersonalGetListCard_pickupDate_pickupTime {
+  font-size: 13px;
+  color: #948a85;
+}
+
+.PersonalGetListCard_itemImg {
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+}
+
+.PersonalGetListCard_placeholder {
+  font-size: 14px;
+  color: #888;
+  background-color: #f4f5f6;
+  border-radius: 5px;
+  text-align: center;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PersonalGetListCard_lostLocation_layout {
+  display: flex;
+  align-items: center;
+}
+
+.PersonalGetListCard_storageLocation {
+  font-size: 12px;
+  margin-left: 5px;
+  color: #ff3535;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.PersonalGetListCard_btn_layout {
+  display: grid;
+  align-items: center;
+}
+
+.PersonalGetListCard_pickupcheck_btn {
+  background-color: #d04020;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 63px;
+  height: 38px;
+  font-size: 13px;
+  font-family: 'Noto Sans KR', serif;
+  font-weight: 700;
+}
